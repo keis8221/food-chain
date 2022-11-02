@@ -1,7 +1,6 @@
 <script>
   import { Router, Route } from "svelte-routing";
   export let name;
-  export let url = "";
 </script>
 
 <main>
