@@ -1,4 +1,6 @@
 <script>
+  import { Router, Route, Link } from "svelte-routing";
+  import "./firebase/firebase";
   export let name;
 </script>
 
