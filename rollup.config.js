@@ -4,6 +4,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
+import dotenv from 'dotenv';
+import replace from '@rollup/plugin-replace';
+dotenv.config();
 
 const smelte = require('smelte/rollup-plugin-smelte');
 const production = !process.env.ROLLUP_WATCH;
